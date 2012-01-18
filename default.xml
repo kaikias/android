@@ -166,7 +166,7 @@
   <project path="external/vim" name="CyanogenMod/android_external_vim" revision="master" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
-  <project path="frameworks/base" name="photon-dev-team/android_frameworks_base" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="photon" revision="ics" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" />
@@ -191,7 +191,7 @@
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
-  <project path="kernel/tegra" name="photon-dev-team / ics_kernel" remote="photon" revision="refs/tags/master"  />
+  <project path="kernel/tegra" name="ics_kernel" remote="photon"  />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -217,7 +217,7 @@
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
-  <project path="packages/apps/Phone" name="photon-dev-team/android_packages_apps_Phone" />
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="photon" revision="ics" />
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
@@ -254,9 +254,9 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="prebuilt" name="CyanogenMod/android_prebuilt"  remote="github" revision="refs/tags/master" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm"  remote="github" revision="refs/tags/master" />
-  <project path="vendor/moto" name="proprietary_vendor_motorola" remote="photon"  />
+  <project path="vendor/moto" name="proprietary_vendor_motorola" remote="photon" revision="ics" />
   <project path="vendor/authentec" name="android_vendor_authentec" remote="photon" />
-  <project path="vendor/bcm" name="android_vendor_bcm" remote="photon"/>
+  <project path="vendor/bcm" name="android_vendor_bcm" remote="photon" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/core" name="CyanogenMod/android_system_core" />
@@ -266,5 +266,5 @@
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
 
-  <project path="android" name="photon-dev-team/android" remote="github" revision="refs/tags/ics" />
+  <project path="android" name="android" remote="photon" revision="ics"  />
 </manifest>
