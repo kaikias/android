@@ -4,6 +4,9 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
+  <remote  name="photon"
+	   fetch="git://github.com/photon-dev-team/" />
+
   <remote  name="github"
            fetch="git://github.com/" 
            review="review.cyanogenmod.com" />
@@ -188,7 +191,7 @@
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
-  <project path="kernel/tegra" name="photon-dev-team / ics_kernel" remote="github" revision="refs/tags/master"  />
+  <project path="kernel/tegra" name="photon-dev-team / ics_kernel" remote="photon" revision="refs/tags/master"  />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -251,9 +254,9 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="prebuilt" name="CyanogenMod/android_prebuilt"  remote="github" revision="refs/tags/master" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm"  remote="github" revision="refs/tags/master" />
-  <project path="vendor/moto" name="photon-dev-team/proprietary_vendor_motorola" remote="github" revision="refs/tags/master"  />
-  <project path="vendor/authentec" name="photon-dev-team / android_vendor_authentec" remote="github" revision="refs/tags/master" />
-  <project path="vendor/bcm" name="photon-dev-team / android_vendor_bcm" />
+  <project path="vendor/moto" name="photon-dev-team/proprietary_vendor_motorola" remote="photon" revision="refs/tags/master"  />
+  <project path="vendor/authentec" name="photon-dev-team / android_vendor_authentec" remote="photon" revision="refs/tags/master" />
+  <project path="vendor/bcm" name="photon-dev-team / android_vendor_bcm" remote="photon" revision="refs/tags/master" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/core" name="CyanogenMod/android_system_core" />
