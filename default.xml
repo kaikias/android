@@ -254,9 +254,9 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="prebuilt" name="CyanogenMod/android_prebuilt"  remote="github" revision="refs/tags/master" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm"  remote="github" revision="refs/tags/master" />
-  <project path="vendor/moto" name="photon-dev-team/proprietary_vendor_motorola" remote="photon"  />
-  <project path="vendor/authentec" name="photon-dev-team / android_vendor_authentec" remote="photon" />
-  <project path="vendor/bcm" name="photon-dev-team / android_vendor_bcm" remote="photon"/>
+  <project path="vendor/moto" name="proprietary_vendor_motorola" remote="photon"  />
+  <project path="vendor/authentec" name="android_vendor_authentec" remote="photon" />
+  <project path="vendor/bcm" name="android_vendor_bcm" remote="photon"/>
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/core" name="CyanogenMod/android_system_core" />
