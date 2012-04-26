@@ -262,7 +262,7 @@
   <project path="vendor/qcom/opensource/omx/mm-video" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-video" />
   <project path="vendor/moto" name="proprietary_vendor_motorola" remote="photon" revision="ics" />
   <project path="vendor/authentec" name="android_vendor_authentec" remote="photon" revision="master"/>
-  <project path="vendor/moto/olympus/wifi-module" name="android_vendor_bcm" remote="photon" revision="master"/>
+  <project path="kernel/moto/olympus/wifi-module" name="android_vendor_bcm" remote="photon" revision="master"/>
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
