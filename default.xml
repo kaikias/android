@@ -317,7 +317,7 @@
   <project path="prebuilts/qemu-kernel" name="CyanogenMod/android_prebuilts_qemu-kernel" />
   <project path="prebuilts/sdk" name="CyanogenMod/android_prebuilts_sdk" />
   <project path="prebuilts/tools" name="CyanogenMod/android_prebuilts_tools" />
-  <project path="vendor/moto" name="proprietary_vendor_motorola" remote="photon" revision="ics" />
+  <project path="vendor/moto" name="proprietary_vendor_motorola" remote="photon" revision="jellybean" />
   <project path="vendor/authentec" name="android_vendor_authentec" remote="photon" revision="master"/>
   <project path="kernel/moto/olympus/wifi-module" name="android_vendor_bcm" remote="photon" revision="master"/>
   <project path="sdk" name="CyanogenMod/android_sdk" />
