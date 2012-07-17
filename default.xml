@@ -38,6 +38,8 @@
   <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" />
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" />
+  <project path="device/moto/sunfire" name="photon-dev-team/sunfire" />
+  <project path="device/moto/olympus" name="photon-dev-team/android_device_motorola_olympus" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
   <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" />
   <project path="docs/source.android.com" name="CyanogenMod/android_docs_source.android.com" />
