@@ -318,7 +318,6 @@
   <project path="prebuilts/sdk" name="CyanogenMod/android_prebuilts_sdk" />
   <project path="prebuilts/tools" name="CyanogenMod/android_prebuilts_tools" />
   <project path="vendor/moto" name="proprietary_vendor_motorola" remote="photon" revision="jellybean" />
-  <project path="kernel/moto/olympus/wifi-module" name="android_vendor_bcm" remote="photon" revision="master"/>
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/core" name="CyanogenMod/android_system_core" />
