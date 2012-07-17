@@ -4,6 +4,9 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
+  <remote  name="photon"
+	   fetch="git://github.com/photon-dev-team/" />
+
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.com" />
@@ -19,7 +22,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="CyanogenMod/android" />
+  <project path="android" name="photon-dev-team/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
@@ -35,6 +38,8 @@
   <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" />
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" />
+  <project path="device/moto/sunfire" name="photon-dev-team/sunfire" />
+  <project path="device/moto/olympus" name="photon-dev-team/android_device_motorola_olympus" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
   <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" />
   <project path="docs/source.android.com" name="CyanogenMod/android_docs_source.android.com" />
@@ -191,7 +196,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="photon" revision="jellybean" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="CyanogenMod/android_frameworks_compile_linkloader" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" />
@@ -224,6 +229,8 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
+  <project path="kernel/moto/sunfire" name="ics_kernel" remote="photon" revision="master"/>
+  <project path="kernel/moto/olympus" name="ics_atrix" remote="photon" revision="master"/>
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
@@ -310,6 +317,9 @@
   <project path="prebuilts/qemu-kernel" name="CyanogenMod/android_prebuilts_qemu-kernel" />
   <project path="prebuilts/sdk" name="CyanogenMod/android_prebuilts_sdk" />
   <project path="prebuilts/tools" name="CyanogenMod/android_prebuilts_tools" />
+  <project path="vendor/moto" name="proprietary_vendor_motorola" remote="photon" revision="jellybean" />
+  <project path="vendor/authentec" name="android_vendor_authentec" remote="photon" revision="master"/>
+  <project path="kernel/moto/olympus/wifi-module" name="android_vendor_bcm" remote="photon" revision="master"/>
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/core" name="CyanogenMod/android_system_core" />
