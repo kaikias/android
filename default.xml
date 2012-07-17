@@ -39,7 +39,7 @@
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" />
   <project path="device/moto/sunfire" name="photon-dev-team/sunfire" />
-  <project path="device/moto/olympus" name="android_device_olympus" remote="photon" revision="jellybean" />
+  <project path="device/moto/olympus" name="android_device_motorola_olympus" remote="photon" revision="jellybean" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
   <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" />
   <project path="docs/source.android.com" name="CyanogenMod/android_docs_source.android.com" />
@@ -318,6 +318,8 @@
   <project path="prebuilts/sdk" name="CyanogenMod/android_prebuilts_sdk" />
   <project path="prebuilts/tools" name="CyanogenMod/android_prebuilts_tools" />
   <project path="vendor/moto" name="proprietary_vendor_motorola" remote="photon" revision="jellybean" />
+  <project path="vendor/authentec" name="android_vendor_authentec" remote="photon" revision="master"/>
+  <project path="kernel/moto/olympus/wifi-module" name="android_vendor_bcm" remote="photon" revision="master"/>
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/core" name="CyanogenMod/android_system_core" />
